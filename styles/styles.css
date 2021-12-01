@@ -179,8 +179,9 @@ font-family: Cardo;
  .page-footer > div > ul {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
-     align-content: space-between;
      padding-left: 15rem;
+     padding-bottom: 3rem;
+     padding-top: 3rem;
  }
 
  .page-footer > div > ul > li {
