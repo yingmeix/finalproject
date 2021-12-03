@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="styles/navmovestyle2.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav>
+		  <a href="index.html">
+			<button type="button" class="back-btn">Back</button>
+		  </a>
+		  <div class="dropdown">
+			<div id="text1">60s<b></b></div>
+			<div class="dropdown-content">
+			<!--  1.用a标签 包上 对应的p标签
+				  2.然后再href中填上自己想要跳转的网址即可
+			-->
+			  <a href="https://www.youtube.com/watch?v=pEGKZj3xfwo"><p class="content1">Lijun Deng</p></a>
+			  <a href="https://en.wikipedia.org/wiki/Li_Guyi"><p class="content1">Guyi Li</p></a>
+			  <a href="https://en.wikipedia.org/wiki/Jiang_Dawei"><p class="content1">Dawei Jiang</p></a>
+			</div>
+		  </div>
+		  <div class="dropdown">
+			<div id="text2">70s<b></b></div>
+			<div class="dropdown-content">
+			<!-- 在href中填上自己想要跳转的网址  -->
+			  <a href="https://www.youtube.com/watch?v=Yi5F7JFGw0c"><p class="content2">Xueyou Zhang</p></a>
+			  <a href="https://en.wikipedia.org/wiki/Annie_Yi"><p class="content2">Nengjing Yi</p></a>
+			  <a href="https://www.youtube.com/watch?v=gQK9NsX_oUo"><p class="content2">Dayou Luo</p></a>
+			</div>
+		  </div>
+		  <div class="dropdown">
+			<div id="text3">80s<b></b></div>
+			<div class="dropdown-content">
+			<!-- 在href中填上自己想要跳转的网址-->
+			  <a href="https://www.youtube.com/watch?v=UHwzHFvw9Cs"><p class="content3">Ruoying Liu</p></a>
+			  <a href="https://www.youtube.com/watch?v=sG6f3ARmW2M"><p class="content3">Yuqing Fei</p></a>
+			  <a href="https://www.youtube.com/watch?v=w-PvmM2qL9E"><p class="content3">Huajian Zhou</p></a>
+				</div>
+			</div>
+
+		  <div class="dropdown">
+			<div id="text4">90s<b></b></div>
+			<div class="dropdown-content">
+			<!-- 在href中填上自己想要跳转的网址-->
+			  <a href="https://open.spotify.com/artist/3df3XLKuqTQ6iOSmi0K3Wp"><p class="content4">Fei Wang</p></a>
+			  <a href="https://open.spotify.com/artist/2elBjNSdBE2Y3f0j1mjrql"><p class="content4">Jay Chou</p></a>
+			  <a href="https://open.spotify.com/artist/1r9DuPTHiQ7hnRRZ99B8nL"><p class="content4">Jolin Cai</p></a>
+				</div>
+			</div>
+			<h1 class="title">MAESTRO</h1>
+		</nav>
+	<div class="center">
+		EXPLORE THE MOST POPULAR MUSICIAN WITHIN YOUR GENERATION
+	</div>	
+
+	<div class="card-group">
+	   <div class="card-container">
+		<div class="cover">
+			<img src="images/liguyi.png"  class="artist-img"/>
+		</div>
+		<div class="back">
+		<!--   在href中加上想要跳转的网址  -->
+		  <a href="https://en.wikipedia.org/wiki/Li_Guyi">
+			<iframe width="350" height="250" src="https://www.youtube.com/embed/kPZ_QS3afEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+			</iframe>
+		</a>
+		  <p class="artist-intro">
+			Li Guyi is a Chinese singer and dancer. Li rose to fame after singing Homeland Love , a mellow love ballad written by Ma Jinghua and Zhang Peiji, in 1980, the year of China's reform and opening-up. 
+</p>
+		</div>
+	  </div>
+	  
+	  <div class="card-container">
+		<div class="cover">
+			<img src="images/denglijun.png"  class="artist-img"/>
+		</div>
+		<div class="back">
+		<!--   在href中加上想要跳转的网址  -->
+		
+		<!--
+			<a href="https://www.youtube.com/watch?v=pEGKZj3xfwo">
+			  <img src="images/denglijun.png"  class="artist-img"/>
+			 
+		  </a>
+		--> 
+		<!--   需要你尝试的改动在这里   
+			src里面是 copy embed code 中的 src部分
+			如果需要，就写个css，定义一下video的 height 和 width 就行
+		--> 
+		<video src="https://www.youtube.com/embed/pEGKZj3xfwo" controls></video>
+		  <p class="artist-intro">
+			Teng Li-chun (29 January 1953 – 8 May 1995), commonly known as Teresa Teng, was a Taiwanese singer, actress, musician and philanthropist. Dubbed as "Asia's eternal queen of pop", Teng became a cultural icon for her contributions to Mandopop, giving birth to the phrase, "Wherever there are Chinese people, there is the music of Teresa Teng". </p>
+		</div>
+	  </div>
+	  
+	  <div class="card-container">
+		<div class="cover">
+			<img src="images/jiangdawei.png"  class="artist-img"/>
+		</div>
+		<div class="back">
+		<!--   在href中加上想要跳转的网址  -->
+		  <a href="https://en.wikipedia.org/wiki/Jiang_Dawei"><img src="images/jiangdawei.png"  class="artist-img"/></a>
+		  <p class="artist-intro">
+			Jiang Dawei is a Chinese folk singer, best known for a number of hit songs such as the theme song for the 1986 TV series Journey to the West. In 1968, he joined the Forest Trooper Art Troupe and began his singing career. In 1975 he joined the Beijing Central National Song and Dance Ensemble as a solo singer.</p>
+		</div>
+	  </div>
+	</div>
+	</body>
+
+	<footer class="page-footer">
+		<div>
+		  
+		  <ul>
+			<li>
+			  <a href="">Proposal</a>
+			</li>
+			<li>
+			  <a href="">Framework</a>
+			</li>
+			<li>
+			  <a href="">User Report</a>
+			</li>
+		  </ul>
+		  <p>
+			Created and maintained by Miao Li & Yingmei Xia
+		  </p >
+		</div>
+	  </footer>
+
+</html>
