@@ -105,10 +105,35 @@ a{
 .artist-intro{
 	font-size: 20px;
 	padding: 0 40px 10px 40px;
-	/*
-	transform: translateY(-60px);
-	*/
 }
+
+/*   用在artist-detail页面    */
+.artist-detail-img{
+	display: flex;
+	height: 240px;
+	width: 300px;
+	margin: 20px auto;
+
+}
+
+.detail-list{
+	margin: 2rem auto;
+}
+
+.artist-detail{
+	font-size:25px;
+	padding: 1rem 4rem;
+	line-height: 35px;	
+}
+
+.ViewMore-btn{
+	color:black;
+	width: 200px;
+	font-size: 15px;
+	border-radius: 0.5rem;
+
+}
+/*   到这里结束*/
 
 .card-container:hover .back {
 	transform: rotatey(0deg);
