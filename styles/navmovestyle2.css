@@ -88,6 +88,14 @@ a{
 	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(170, 169, 168) 0%, rgb(223, 219, 215) 90.1% );
 }
 
+.back:hover .video{
+	display: flex;
+} 
+
+.video{
+	display: none;
+}
+
 .artist-img{
 	height: 240px;
 	width: 300px;
