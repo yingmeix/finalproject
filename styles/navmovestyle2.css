@@ -389,9 +389,11 @@ b{
 	max-width: 75ch;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
 .artist-detail {
-	font-family: 'Roboto Mono';
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 }
 
 
