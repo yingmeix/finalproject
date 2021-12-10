@@ -393,11 +393,25 @@ b{
 
 .artist-detail {
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 750;
+	word-spacing: 2.5px;
+}
+
+.center {
+	font-family: 'Fuzzy Bubbles', cursive;
+	word-spacing: 0.5rem;
 	font-weight: 700;
 }
 
+.artist-intro {
+	font-family: 'Comfortaa', cursive;
+	padding-top: 15px;
+	word-spacing: 2px;
+}
 
-
+.ViewMore-btn {
+	font-family: 'Comfortaa', cursive;
+}
 
 
 
