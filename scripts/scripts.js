@@ -2,7 +2,7 @@
 
 (function($) {
     $.fn.timeline = function() {
-      var selectors = {
+      let selectors = {
         id: $(this),
         item: $(this).find(".timeline-item"),
         activeClass: "timeline-item--active",
@@ -18,14 +18,14 @@
             .attr("src") +
           ")"
       );
-      var itemLength = selectors.item.length;
+      let itemLength = selectors.item.length;
       $(window).scroll(function() {
-        var max, min;
-        var pos = $(this).scrollTop();
+        let max, min;
+        let pos = $(this).scrollTop();
         selectors.item.each(function(i) {
           min = $(this).offset().top;
           max = $(this).height() + $(this).offset().top;
-          var that = $(this);
+          let that = $(this);
           if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
             selectors.item.removeClass(selectors.activeClass);
             selectors.id.css(
