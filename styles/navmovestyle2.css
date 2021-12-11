@@ -401,6 +401,7 @@ b{
 	font-family: 'Fuzzy Bubbles', cursive;
 	word-spacing: 0.5rem;
 	font-weight: 700;
+	position: center;
 }
 
 .artist-intro {
